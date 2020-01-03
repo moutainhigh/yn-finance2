@@ -7,7 +7,7 @@
     <artifactId>twp-svc-finance-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-	  <artifactId>twp-svc-finance-service</artifactId>
+	  <artifactId>twp-etc-yn-trade-service</artifactId>
 	  <properties>
 	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	  </properties>
@@ -15,7 +15,7 @@
 	    
 	    <dependency>
 	        <groupId>cn.trawe.pay</groupId>
-	        <artifactId>twp-svc-finance-expose</artifactId>
+	        <artifactId>twp-etc-yn-trade-expose</artifactId>
 	        <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>

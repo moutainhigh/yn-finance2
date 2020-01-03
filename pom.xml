@@ -14,10 +14,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>twp-svc-finance</module>
-        <module>twp-svc-finance-expose</module>
-    	<module>twp-svc-finance-service</module>
-        <module>twp-svc-finance-task</module>
+        <module>twp-etc-yn-trade</module>
+        <module>twp-etc-yn-trade-expose</module>
+    	<module>twp-etc-yn-trade-service</module>
+        <module>twp-etc-yn-trade-task</module>
   </modules>
   
     <dependencies>

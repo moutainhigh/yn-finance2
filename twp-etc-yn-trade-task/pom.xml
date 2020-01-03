@@ -8,9 +8,9 @@
         <artifactId>twp-svc-finance-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-    <artifactId>twp-svc-finance-task</artifactId>
+    <artifactId>twp-etc-yn-trade-task</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>twp-svc-finance-task</name>
+    <name>twp-etc-yn-trade</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -64,7 +64,7 @@
     <dependencies>
         <dependency>
             <groupId>cn.trawe.pay</groupId>
-            <artifactId>twp-svc-finance-service</artifactId>
+            <artifactId>twp-etc-yn-trade-service</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <exclusions>
                 <exclusion>
@@ -124,7 +124,7 @@
     </dependencies>
 
     <build>
-        <finalName>twp-svc-finance-task</finalName>
+        <finalName>twp-etc-yn-trade</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
